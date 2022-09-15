@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(216, 197, 197);
+    margin: 0;
+    padding: 0;
+}
+img{
+    margin-top: 20px;
+    height: 101px;
+    width: 100px;
+    
+}
+h1{
+    text-align: center;
+    font-family: "Brush Script MT";
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    padding-left: 180px;
+}
+#carrinho-principal{
+    font-size: 60px;
+    color: #000000;
+    cursor: pointer;
+    padding-left: 80px;
+    vertical-align: text-bottom;
+    /* float: right; */
+}
+#carrinho-principal:hover{
+    color: white;
+}
+.btMaisMenos{
+    right: 10px;
+    bottom: 20px;
+    position: absolute;
+}
+
+.btMais, .btMenos{
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px;
+}
+.quantidade{
+    position: absolute;
+    right: -76px;
+    bottom: 20px;
+    background-color:  rgb(216, 197, 197);
+    padding: 20px;
+    border: #e66b6b solid 2px;
+    font-size: 20px;
+}
+
+.carrinho{
+    
+    color: #0000007d;
+    position: absolute;
+    right: 1px;
+    bottom: 14px;
+    font-size: 41px;
+    cursor: pointer;
+}
+.carrinho:hover{
+    color:#e66b6b;
+}
+
+
+p{
+    
+    background-color: rgb(154, 162, 168);
+    position: absolute;
+    left: 65px;
+    width: 580px;
+    height: 85px;
+    top: 8px;
+    z-index: -1;
+    padding-left: 40px;
+    padding-top: 10px;
+    border: #e66b6b solid 2px;
+    font-family: 'Lucida Handwriting';
+    font-size: 13px;
+
+    
+    
+}
+.produto{
+    position: relative;
+    width: 680px;
+    margin-top: 2px;
+}
+.embrulho{
+    display: grid;
+    place-items: center;
+}
+#formulario{
+    display: grid;
+    place-items: center;
+}
+
+label{
+    font-size: 14px;
+}
+
+input{
+    width: 500px;
+    height: 20px;
+    border: solid #e66b6b;
+}
+
+#btFinalizar{
+    background-color: #e66b6b;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.valor{
+    text-align: right;
+    float: right;
+    margin-right: 1px;
+    background-color: #0000007d;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    font-family: "Lucida Console";
+}
+
